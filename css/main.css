@@ -1,0 +1,10 @@
+* {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1,
+h1 a,
+h2 {
+    font-family: 'Poppins';
+}

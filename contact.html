@@ -1,37 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-<title>Contact - Stephanie Burciaga</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>Contact - Stephanie Burciaga</title>
 
-<link rel="stylesheet" href="./css/style.css" />
+    <meta property="og:image" content="..." />
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="description" content="Stephanie Burciaga is a designer living in the Bay Area.">
 
-<meta property="og:image" content="..." />
-<meta property="twitter:card" content="summary_large_image">
-
-<meta name="description" content="Stephanie Burciaga is a designer living in the Bay Area.">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/nav.js"></script>
 </head>
 
 <body>
-    <div id="container">
-        <header><nav>
-    <img src="https://via.placeholder.com/60" alt="Logo">
-    <a href="./index.html">Home</a>
-    <a href="./gd.html">Graphic Design</a>
-    <a href="./ui.html">User Interface</a>
-    <a href="./about.html">About</a>
-    <a href="./contact.html">Contact</a>
-</nav></header>
-        <main>
-    <h1>Contact</h1>
-    <p>this is the contact page</p>
+    <header>
+
+    <nav>
+        <a id="logo" href="./index.html"><img src="./img/logo.png" alt="Logo"></a>
+
+        <div class="toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        
+        <div class="links">
+            <a href="./index.html">Home</a>
+            <a href="./gd.html">Graphic Design</a>
+            <a href="./ui.html">User Interface</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        
+ <h1>Contact</h1>
+<p>I&rsquo;m currently open to new opportunities. Use the form below and I&rsquo;ll get back to you as soon as possible.</p>
+
+<form target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/8d500bd77e87" accept-charset="UTF-8"
+    method="POST">
+    <fieldset>
+        <h2>Let's connect!</h2>
+        <div id="name">
+            <label title="required" for="Your_name">Your name *</label>
+            <input type="text" name="Your name" id="Your_name" required="required" autofocus="autofocus"
+                class="form-control" />
+        </div>
+        <div id="email">
+            <label title="required" for="Email_address">Email address *</label>
+            <input type="email" name="Email address" id="Email_address" required="required" class="form-control" />
+        </div>
+        <div id="subject">
+            <label title="required" for="Subject">Subject *</label>
+            <input type="text" name="Subject" id="Subject" required="required" class="form-control" />
+        </div>
+        <div id="msg">
+            <label title="required" for="Message">Message *</label>
+            <textarea name="Message" id="Message" required="required" class="form-control"></textarea>
+        </div>
+        <div id="honey">
+            <label for="subscribe_8d500bd77e87_41482"></label>
+            <input name="subscribe_8d500bd77e87_41482" value="" tabindex="-1" autocomplete="off" type="email"
+                id="email_subscribe_8d500bd77e87_41482" placeholder="Your email here">
+        </div>
+        <input type="submit" value="Submit" data-disable-with="Submit" />
+    </fieldset>
+</form>
 
 
-            
-        </main>
-        <footer><p>Copyright &copy; 2023 Stephanie Burciaga. All rights reserved.</p></footer>
-    </div>
+<h2 id="resume">Resume</h2>
+<p>Resume goes here.</p>
+
+
+        
+    </main>
+
+    <footer>
+    <p>Copyright &copy; 2023 Stephanie Burciaga. All rights reserved.</p>
+</footer>
 </body>
+
 </html>

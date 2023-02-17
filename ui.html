@@ -1,67 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-<title>User Interface - Stephanie Burciaga</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>User Interface - Stephanie Burciaga</title>
 
-<link rel="stylesheet" href="./css/style.css" />
+    <meta property="og:image" content="..." />
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="description" content="Stephanie Burciaga is a designer living in the Bay Area.">
 
-<meta property="og:image" content="..." />
-<meta property="twitter:card" content="summary_large_image">
-
-<meta name="description" content="Stephanie Burciaga is a designer living in the Bay Area.">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/nav.js"></script>
 </head>
 
 <body>
-    <div id="container">
-        <header><nav>
-    <img src="https://via.placeholder.com/60" alt="Logo">
-    <a href="./index.html">Home</a>
-    <a href="./gd.html">Graphic Design</a>
-    <a href="./ui.html">User Interface</a>
-    <a href="./about.html">About</a>
-    <a href="./contact.html">Contact</a>
-</nav></header>
-        <main>
-    <h1>User Interface</h1>
-    <p>this is the user interface category</p>
+    <header>
 
-    
+    <nav>
+        <a id="logo" href="./index.html"><img src="./img/logo.png" alt="Logo"></a>
 
-    <div id="projects" class="cards">
-        <div>
-            <a href="./ui/bookmatch.html">
-                <img src="https://via.placeholder.com/400" alt="Bookmatch" />
-                <p>
-                    Bookmatch<br>
-                    2021
-                </p>
-            </a>
+        <div class="toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-    </div>
-    
 
-    <div id="projects" class="cards">
-        <div>
-            <a href="./ui/itsclayday.html">
-                <img src="https://via.placeholder.com/400" alt="It&#39;s Clay Day" />
-                <p>
-                    It&#39;s Clay Day<br>
-                    2021
-                </p>
-            </a>
+        
+        <div class="links">
+            <a href="./index.html">Home</a>
+            <a href="./gd.html">Graphic Design</a>
+            <a href="./ui.html">User Interface</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
         </div>
-    </div>
-    
+    </nav>
+</header>
 
-            <div id="contact">
+    <main>
+        
+<h1>User Interface</h1>
+
+<div id="projects" class="cards">
+    
+    <a href="http://srciaga.github.io/ui/bookmatch.html">
+        <img src="https://via.placeholder.com/435x300" alt="Bookmatch" />
+        <ul>
+            <li>Bookmatch</li>
+            <li>App UI / 2021</li>
+        </ul>
+    </a>
+    
+    <a href="http://srciaga.github.io/ui/itsclayday.html">
+        <img src="https://via.placeholder.com/435x300" alt="It&#39;s Clay Day" />
+        <ul>
+            <li>It&#39;s Clay Day</li>
+            <li>Web Design / 2021</li>
+        </ul>
+    </a>
+    
+</div>
+
+        <div id="contact">
     <h1>Want to work together?</h1>
     <a href="./contact.html">Contact me</a>
 </div>
-        </main>
-        <footer><p>Copyright &copy; 2023 Stephanie Burciaga. All rights reserved.</p></footer>
-    </div>
+    </main>
+
+    <footer>
+    <p>Copyright &copy; 2023 Stephanie Burciaga. All rights reserved.</p>
+</footer>
 </body>
+
 </html>
