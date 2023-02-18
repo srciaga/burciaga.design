@@ -16,20 +16,16 @@
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/nav.js"></script>
 </head>
-
 <body>
+    <div id="top"></div>
     <header>
-
     <nav>
-        <a id="logo" href="./index.html"><img src="./img/logo.png" alt="Logo"></a>
-
+        <a id="logo" href="./index.html"><img src="https://via.placeholder.com/80" alt="Logo"></a>
         <div class="toggle">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-
-        
         <div class="links">
             <a href="./index.html">Home</a>
             <a href="./gd.html">Graphic Design</a>
@@ -39,30 +35,30 @@
         </div>
     </nav>
 </header>
-
     <main>
         
- <h1>Contact</h1>
-<p>I&rsquo;m currently open to new opportunities. Use the form below and I&rsquo;ll get back to you as soon as possible.</p>
+<div class="container">
+    <h1 class="center-text">Contact</h1>
+    <p>I&rsquo;m currently open to new opportunities. Use the form below and I&rsquo;ll get back to you as soon as possible.</p>
 
+<h2 class="center-text">Let's connect!</h2>
 <form target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/8d500bd77e87" accept-charset="UTF-8"
     method="POST">
     <fieldset>
-        <h2>Let's connect!</h2>
-        <div id="name">
+        <div>
             <label title="required" for="Your_name">Your name *</label>
             <input type="text" name="Your name" id="Your_name" required="required" autofocus="autofocus"
                 class="form-control" />
         </div>
-        <div id="email">
+        <div>
             <label title="required" for="Email_address">Email address *</label>
             <input type="email" name="Email address" id="Email_address" required="required" class="form-control" />
         </div>
-        <div id="subject">
+        <div>
             <label title="required" for="Subject">Subject *</label>
             <input type="text" name="Subject" id="Subject" required="required" class="form-control" />
         </div>
-        <div id="msg">
+        <div>
             <label title="required" for="Message">Message *</label>
             <textarea name="Message" id="Message" required="required" class="form-control"></textarea>
         </div>
@@ -71,7 +67,7 @@
             <input name="subscribe_8d500bd77e87_41482" value="" tabindex="-1" autocomplete="off" type="email"
                 id="email_subscribe_8d500bd77e87_41482" placeholder="Your email here">
         </div>
-        <input type="submit" value="Submit" data-disable-with="Submit" />
+        <input id="submit" type="submit" value="   Submit   " data-disable-with="Submit" />
     </fieldset>
 </form>
 
@@ -79,13 +75,13 @@
 <h2 id="resume">Resume</h2>
 <p>Resume goes here.</p>
 
+</div>
 
         
     </main>
-
     <footer>
-    <p>Copyright &copy; 2023 Stephanie Burciaga. All rights reserved.</p>
+    <a href="#top">Back to top. &#8593;</a><br>
+    Copyright &copy; 2023 Stephanie Burciaga. All rights reserved.
 </footer>
 </body>
-
 </html>

@@ -14,6 +14,8 @@ nav {
     display: flex;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .links a {
@@ -29,11 +31,11 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     width: 45px;
-    height: 40px;
+    height: 30px;
 }
 
 .toggle .bar {
-    height: 6px;
+    height: 5px;
     width: 100%;
     background-color: black;
     border-radius: 10px;

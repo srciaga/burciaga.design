@@ -1,10 +1,271 @@
-* {
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
+:root {
+    /* === Colors === */
+    --black: #272727;
+    --grey: #777777;
+    --shadow1: rgb(0 0 0 / 5%);
+    --shadow2: rgb(0 0 0 / 15%);
+    --bg: #ffffff;
+    /* === Fonts === */
+    --basefont: 'Nunito';
+    --headingfont: 'Poppins';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: var(--basefont), sans-serif;
+    color: var(--black);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    margin: 1rem;
+}
+
+/* === Layout === */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+/* === Basics === */
 h1,
 h1 a,
 h2 {
-    font-family: 'Poppins';
+    font-family: var(--headingfont);
+}
+
+p {
+    line-height: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+p a,
+h1 a {
+    text-decoration: underline;
+}
+
+a {
+    transition: color .25s ease-in-out;
+}
+
+a:hover {
+    color: blue;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+figure {
+    /* Reset default */
+    margin: 0;
+}
+
+figcaption p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+.center-text {
+    text-align: center;
+}
+
+#about-text {
+    max-width: 800px;
+}
+
+#intro h1,
+#contact h1 {
+    font-size: 2.5rem;
+    background-color: var(--black);
+    color: white;
+    width: fit-content;
+    padding: .5rem 2rem .5rem 2rem;
+    border-radius: 15px;
+}
+#intro h1 a {
+    color: white;
+}
+
+/* Cards on home and category pages */
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.cards img {
+    box-shadow: 0px 1px 5px var(--shadow1);
+    transition: all .25s ease-in-out;
+}
+
+.cards img:hover {
+    box-shadow: 0px 7px 33px 0 var(--shadow2);
+    transform: translateY(-.75rem);
+}
+
+.cards ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cards li:first-child,
+.cards p {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.cards p {
+    margin-top: 1rem;
+}
+
+.cards li:last-child {
+    color: var(--grey);
+}
+
+#intro {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+#contact {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#contact h1 {
+    margin-bottom: 3rem;
+}
+
+#contact a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: solid 1px var(--black);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+/* single project page */
+#project-info {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2.5rem;
+}
+
+
+form {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+fieldset {
+    /* Remove defaults */
+    border: none;
+    padding: 0;
+    margin: 0;
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+fieldset div {
+    /* max-width: 600px; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+div label {
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+div input,
+div textarea {
+    padding: .5rem;
+}
+
+div input {
+    height: 2rem;
+}
+
+div textarea {
+    height: 10rem;
+}
+
+input[type=submit] {
+    padding: .5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    height: fit-content;
+    transition: background-color .2s ease-in-out;
+}
+
+input[type=submit]:hover {
+    background-color: #9b9b9b;
+}
+
+#honey {
+    display: none;
+}
+
+
+/* === Social Icons (About page) === */
+#socials {
+    text-align: center;
+}
+
+#socials img {
+    border-radius: 100%;
+    width: 60px;
+    padding: .5rem;
+    transition: all .3s ease-in-out;
+}
+
+#socials img:hover {
+    transform: translateY(-.5rem) scale(1.2);
+}
+
+footer {
+    padding: 2rem;
+    color: var(--grey);
+    text-align: center;
+}
+
+#top {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
