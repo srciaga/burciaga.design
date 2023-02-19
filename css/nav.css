@@ -3,6 +3,7 @@ nav {
     position: relative;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 #logo {
@@ -15,10 +16,11 @@ nav {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-weight: 700;
 }
 
 .links a {
+    font-family: 'Poppins';
+    font-weight: 500;
     display: block;
     padding: 1rem;
 }
@@ -41,7 +43,7 @@ nav {
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
