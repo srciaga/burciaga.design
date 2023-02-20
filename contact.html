@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
-    <title>Contact - Stephanie Burciaga</title>
-
-    <meta property="og:image" content="..." />
-    <meta property="twitter:card" content="summary_large_image">
-    <meta name="description" content="Stephanie Burciaga is a designer living in the Bay Area.">
-
+    <title> Contact - Stephanie Burciaga</title>
+    <meta name="description" content="{{ .Site.Params.Description }}" />
+    <meta property="og:title" content="Stephanie Burciaga">
+    <meta property="og:description" content="{{ .Site.Params.Description }}">
+    <meta property="og:url" content="http://srciaga.github.io/">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css"/>
     <script src="./js/nav.js"></script>
 </head>
 <body>
@@ -40,38 +39,34 @@
 <div class="container">
     <h1 class="center-text">Contact</h1>
     <p>I&rsquo;m currently open to new opportunities. Use the form below and I&rsquo;ll get back to you as soon as possible.</p>
-
 <h2 class="center-text">Let's connect!</h2>
-<form target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/8d500bd77e87" accept-charset="UTF-8"
-    method="POST">
+<form target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/8d500bd77e87" accept-charset="UTF-8" method="POST">
     <fieldset>
+        <p><span>*</span> Indicates required field</p>
         <div>
-            <label title="required" for="Your_name">Your name *</label>
-            <input type="text" name="Your name" id="Your_name" required="required" autofocus="autofocus"
-                class="form-control" />
+            <label title="required" for="Your_name">Your name <span>*</span></label>
+            <input type="text" name="Your name" id="Your_name" required="required" autofocus="autofocus" class="form-control" />
         </div>
         <div>
-            <label title="required" for="Email_address">Email address *</label>
+            <label title="required" for="Email_address">Email address <span>*</span></label>
             <input type="email" name="Email address" id="Email_address" required="required" class="form-control" />
         </div>
         <div>
-            <label title="required" for="Subject">Subject *</label>
+            <label title="required" for="Subject">Subject <span>*</span></label>
             <input type="text" name="Subject" id="Subject" required="required" class="form-control" />
         </div>
         <div>
-            <label title="required" for="Message">Message *</label>
+            <label title="required" for="Message">Message <span>*</span></label>
             <textarea name="Message" id="Message" required="required" class="form-control"></textarea>
         </div>
         <div id="honey">
             <label for="subscribe_8d500bd77e87_41482"></label>
             <input name="subscribe_8d500bd77e87_41482" value="" tabindex="-1" autocomplete="off" type="email"
-                id="email_subscribe_8d500bd77e87_41482" placeholder="Your email here">
+                   id="email_subscribe_8d500bd77e87_41482" placeholder="Your email here">
         </div>
-        <input id="submit" type="submit" value="   Submit   " data-disable-with="Submit" />
+        <input id="submit" type="submit" value="Submit" data-disable-with="Submit" />
     </fieldset>
 </form>
-
-
 <h2 id="resume">Resume</h2>
 <p>Resume goes here.</p>
 

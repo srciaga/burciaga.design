@@ -1,10 +1,14 @@
 :root {
     /* === Colors === */
-    --black: #272727;
-    --grey: #777777;
-    --shadow1: rgb(0 0 0 / 5%);
+    --black: #2D333B;
+    --grey: #999999;
+    --shadow1: rgb(0 0 0 / 5.25%);
     --shadow2: rgb(0 0 0 / 15%);
     --bg: #ffffff;
+    --red: #df696b;
+    --blue: #57CBF2;
+    --pink: #e12a80;
+    --pinklight: #e12a8030;
     /* === Fonts === */
     --basefont: 'Nunito';
     --headingfont: 'Poppins';
@@ -19,6 +23,15 @@ html {
     color: var(--black);
     text-decoration: none;
     box-sizing: border-box;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: var(--pinklight);
+}
+
+::selection {
+    background: var(--pinklight);
 }
 
 body {
@@ -61,7 +74,7 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: var(--pink);
 }
 
 img {
@@ -95,7 +108,7 @@ iframe {
 }
 
 #intro h1 {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
 }
 
 #intro span {
@@ -169,26 +182,56 @@ iframe {
 }
 
 #contact a {
+    display: inline-block;
     font-size: 1.5rem;
     font-weight: 700;
-    background-color: var(--black);
+    background-color: var(--pink);
     color: white;
     padding: 1rem;
     border-radius: 15px;
+    text-shadow: 0px 1px 5px var(--shadow1);
+    box-shadow: 0px 1px 5px var(--shadow1);
+    transition: all .25s ease-in-out;
 }
+
+#contact a:hover {
+    background-color: var(--black);
+    box-shadow: 0px 7px 33px 0 var(--shadow2);
+    transform: translateY(-.3rem);
+}
+
+
 
 /* single project page */
 #project-info {
     list-style: none;
     padding: 0;
     margin-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+#project-info li {
+    color: var(--grey);
+}
+
+#project-info li:not(:last-child) {
+    margin-bottom: .4rem;
 }
 
 form {
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+form p {
+    margin: 0;
+    font-style: italic;
+}
+
+form span {
+    color: var(--red);
+    font-weight: 700;
 }
 
 fieldset {
@@ -230,23 +273,29 @@ div textarea {
     height: 10rem;
 }
 
+div input,
+div textarea {
+    font-size: 1rem;
+}
+
 input[type=submit] {
-    padding: .5rem;
     border: none;
-    border-radius: 15px;
-    font-weight: 700;
-    font-size: 1.2rem;
     height: fit-content;
-    transition: background-color .2s ease-in-out;
     font-size: 1.5rem;
     font-weight: 700;
-    background-color: var(--black);
+    background-color: var(--pink);
     color: white;
     padding: 1rem;
+    border-radius: 15px;
+    text-shadow: 0px 1px 5px var(--shadow1);
+    box-shadow: 0px 1px 5px var(--shadow1);
+    transition: all .25s ease-in-out;
 }
 
 input[type=submit]:hover {
-    background-color: #9b9b9b;
+    background-color: var(--black);
+    box-shadow: 0px 7px 33px 0 var(--shadow2);
+    transform: translateY(-.3rem);
 }
 
 #honey {
