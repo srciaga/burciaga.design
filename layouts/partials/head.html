@@ -1,0 +1,15 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ $title := print .Title " - " .Site.Title }} {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}{{ $title }}</title>
+    <meta name="description" content="{{ .Params.description }}" />
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:description" content="{{ .Params.Description }}">
+    <meta property="og:url" content="http://srciaga.github.io/">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/main.css"/>
+    <script src="/js/nav.js"></script>
+</head>

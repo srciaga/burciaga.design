@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container">
+    <h1 class="center-text">{{ .Title }}</h1>
+    <ul id="project-info" class="center-text">
+        <li>{{ .Params.category }} / {{ .Params.year }}</li>
+        <li>Tools: {{ .Params.tool }}</li>
+    </ul>
+</div>
+<img id="featured-image" src="{{ .Params.featuredimage }}" alt="{{ .Title }}">
+<div class="container">
+    {{ .Content }}
+</div>
+{{ end }}
