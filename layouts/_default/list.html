@@ -5,7 +5,7 @@
     <div id="projects" class="cards">
         {{ range .Pages }}
         <a href="{{ .Permalink }}">
-            <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+            <img src="{{ .Params.thumb }}" alt="{{ .Title }}" />
             <ul>
                 <li>{{ .Title }}</li>
                 <li>{{ .Params.category }} / {{ .Params.year }}</li>

@@ -11,7 +11,7 @@ When I'm not designing, I'm:
 
 - Waiting for Hanya Yanagihara's next novel...
 - Watching offbeat movies...
-- And learning how to code. (I built this website!)
+- And learning how to code. ([I built this website!](https://github.com/srciaga/srciaga.github.io))
 
 Let's make something together! If you're interested, please [get in touch](/contact.html).
 {{< rawhtml >}}</div>{{< /rawhtml >}}

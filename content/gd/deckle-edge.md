@@ -4,7 +4,7 @@ category: "Editorial Layout, Illustration"
 year: "2021"
 tool: "Adobe InDesign, Procreate"
 description: "Editorial & Illustration "
-image: https://via.placeholder.com/435x300
+thumb: https://via.placeholder.com/435x300
 featuredimage: https://via.placeholder.com/1500x600 
 draft: true
 ---

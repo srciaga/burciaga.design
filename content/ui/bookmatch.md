@@ -4,8 +4,8 @@ category: "App UI"
 year: "2021"
 tool: "Figma"
 description: "UI design for Bookmatch, an app that helps readers find their next favorite book."
-image: "/img/bm.jpg"
-featuredimage: "https://via.placeholder.com/1500x600"
+thumb: "/img/projects/ui/bm/bm-thumb.jpg"
+featuredimage: "/img/projects/ui/bm/bm-f.jpg"
 ---
 
 Bookmatch is an app that helps readers find their next favorite book. Whether you're into thrillers, romance, or sci-fi, Bookmatch is here to guide you towards your next favorite read. By conducting user research and creating an interactive prototype, I was able to design an app that not only satisfies your reading preferences but also allows you to interact with fellow book enthusiasts.

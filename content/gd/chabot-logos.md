@@ -4,7 +4,7 @@ category: "Logos"
 year: "2021"
 tool: "Adobe Illustrator"
 description: "Logo designs for Chabot College, including a new logo for the Chabot Performing Arts Complex (PAC)."
-image: "/img/cl.jpg"
+thumb: "/img/projects/gd/cl/cl-thumb.jpg"
 featuredimage: "https://via.placeholder.com/1500x600"
 ---
 

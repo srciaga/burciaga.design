@@ -1,0 +1,31 @@
+@import 'fonts';
+@import 'variables';
+@import 'nav';
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    // Reset
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // Styles
+    font-family: $basefont;
+    font-size: $fontbasesize;
+    color: $black;
+    text-decoration: none;
+}
+
+// Selection highlight color
+::-moz-selection {
+    background: $pink-light;
+}
+::selection {
+    background: $pink-light;
+}
+
+body {
+    background-color: $white;
+}

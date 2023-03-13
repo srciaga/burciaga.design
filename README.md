@@ -8,6 +8,7 @@ The site is compiled with [Hugo](https://gohugo.io/) and the final build is auto
 <img align="right" width="20%" alt="Gif of a wizard typing on a computer" src="https://i.imgur.com/vSmdBrC.gif"/>
 
 - [ ] Finish adding projects 
+    - [ ] Fix Cosmic Wish images, they look pixelated
 - [ ] Meta thumbs/descriptions  
 - [ ] Logo/favicon 
 - [ ] Change about page layout  

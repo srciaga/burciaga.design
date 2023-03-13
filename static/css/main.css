@@ -1,7 +1,7 @@
 :root {
     /* === Colors === */
     --black: #2D333B;
-    --grey: #999999;
+    --grey: #6C7687;
     --shadow1: rgb(0 0 0 / 5.25%);
     --shadow2: rgb(0 0 0 / 15%);
     --bg: #ffffff;
@@ -10,8 +10,8 @@
     --pink: #e12a80;
     --pinklight: #e12a8030;
     /* === Fonts === */
-    --basefont: 'Nunito';
-    --headingfont: 'Poppins';
+    --basefont: 'Nunito', sans-serif;
+   --headingfont: 'Poppins', sans-serif;
 }
 
 html {
@@ -67,11 +67,9 @@ p {
 }
 
 p a,
-h1 a {
+h1 a,
+li a {
     border-bottom: 0.3rem solid var(--pinklight);
-}
-
-p a {
     font-weight: 700;
 }
 
@@ -222,7 +220,6 @@ iframe {
     list-style: none;
     padding: 0;
     margin-bottom: 2.5rem;
-    font-weight: 700;
 }
 
 #project-info li {
@@ -336,8 +333,22 @@ input[type=submit]:hover {
 
 footer {
     padding: 2rem;
-    color: var(--grey);
     text-align: center;
+}
+
+footer > a {
+    font-weight: 700;
+}
+
+footer p,
+footer p a {
+	margin: 0;
+	font-weight: 400;
+    color: var(--grey);
+}
+
+footer p a {
+	border-bottom: 1px solid var(--grey);
 }
 
 #top {
