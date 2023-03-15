@@ -6,7 +6,7 @@
         <li>Tools: {{ .Params.tool }}</li>
     </ul>
 </div>
-<img id="featured-image" src="{{ .Params.featuredimage }}" alt="{{ .Title }}">
+{{ if isset .Params "featuredimage" }}<img id="featured-image" src="{{ .Params.featuredimage }}" alt="{{ .Title }}">{{ end }}
 <div class="container">
     {{ .Content }}
 </div>

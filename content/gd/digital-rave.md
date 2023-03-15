@@ -4,9 +4,14 @@ category: "Flyer"
 year: "2021"
 tool: "Adobe InDesign, Illustrator, Photoshop"
 description: "Event flyer for a digital rave."
-thumb: https://via.placeholder.com/435x300
-featuredimage: https://via.placeholder.com/1500x600 
-draft: true
+thumb: "/img/projects/gd/dr/dr-thumb.jpg"
+# featuredimage: https://via.placeholder.com/1500x600 
 ---
 
-This is a party flyer inspired by the style of old rave posters.
+![Digital Rave poster](/img/projects/gd/dr/dr-1.jpg)
+
+Digital Rave is a party flyer inspired by the style of old rave posters.
+
+{{< figure src="/img/projects/gd/dr/dr-2.jpg" alt="FIXME" caption="Layout sketches." >}}
+
+{{< figure src="/img/projects/gd/dr/dr-3.jpg" alt="FIXME" caption="Color comps." >}}

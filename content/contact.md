@@ -9,4 +9,5 @@ I'm currently open to new opportunities. Use the form below and I'll get back to
 {{< contactform >}}
 
 ## Resume
-Resume goes here.
+
+{{< rawhtml >}}<iframe src="/files/Resume2023-StephanieBurciaga.pdf" title="Stephanie Burciaga's Resume"></iframe>{{< /rawhtml >}}
