@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#2D333B;}
-</style>
-<path class="st0" d="M76,12H20c-4.4,0-8,3.6-8,8v56c0,4.4,3.6,8,8,8h56c4.4,0,8-3.6,8-8V20C84,15.6,80.4,12,76,12z M36,68H25.9V40
-	H36V68z M30.8,34.9c-3.1,0-5.1-2.1-5.1-4.8s2.1-4.8,5.5-4.8c3.1,0,5.1,2.1,5.1,4.8S34.2,34.9,30.8,34.9z M72,68h-9.8V52.7
-	c0-4.2-2.6-5.2-3.6-5.2s-4.2,0.7-4.2,5.2V68H44.3V40h10.1v3.9c1.3-2.3,3.9-3.9,8.8-3.9S72,43.9,72,52.7V68z"/>
-</svg>
+<svg enable-background="new 0 0 96 96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><path d="m76 12h-56c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-40 56h-10.1v-28h10.1zm-5.2-33.1c-3.1 0-5.1-2.1-5.1-4.8s2.1-4.8 5.5-4.8c3.1 0 5.1 2.1 5.1 4.8s-2.1 4.8-5.5 4.8zm41.2 33.1h-9.8v-15.3c0-4.2-2.6-5.2-3.6-5.2s-4.2.7-4.2 5.2v15.3h-10.1v-28h10.1v3.9c1.3-2.3 3.9-3.9 8.8-3.9s8.8 3.9 8.8 12.7z" fill="#33b3d1"/></svg>

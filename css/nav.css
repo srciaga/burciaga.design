@@ -4,11 +4,22 @@ nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+    margin-top: 2.5rem;
 }
 
 #logo {
     margin: .75rem;
     width: 5rem;
+    height: 5rem;
+    background-image: url("logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#logo:hover {
+    background-image: url("logo-hover.svg");
+    transform: rotate(-17deg);
+    transition: transform ease-out 300ms;
 }
 
 .links {
@@ -50,7 +61,7 @@ nav {
         align-items: flex-start;
     }
 
-    #logo img {
+    #logo {
         width: 85%;
     }
 
