@@ -7,7 +7,9 @@
     <main>
         {{ block "main" . }}{{ end }}
         {{ if isset .Params "contact" }}{{ partial "contact.html" . }}{{ end }}
+        {{ if isset .Params "instafeed" }}{{ partial "instafeed.html" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
+    <script src="/js/nav.js"></script>
 </body>
 </html>

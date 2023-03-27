@@ -1,12 +1,14 @@
 ---
 title: "Contact"
 layout: page
-description: "{{ .Site.Params.Description }}"
 ---
 
-I'm currently open to new opportunities. Use the form below and I'll get back to you as soon as possible.
+{{< socials >}}
+
+I'm currently open to new opportunities. My [resume](#resume) is available below. Fill out the contact form and I'll get back to you as soon as possible!
 
 {{< contactform >}}
+
 
 ## Resume
 

@@ -3,7 +3,6 @@ title: "Bookmatch"
 category: "App UI"
 year: "2021"
 tool: "Figma"
-description: "UI design for Bookmatch, an app that helps readers find their next favorite book."
 thumb: "/img/projects/ui/bm/bm-thumb.jpg"
 featuredimage: "/img/projects/ui/bm/bm-f.jpg"
 ---

@@ -3,7 +3,6 @@ title: "It's Clay Day"
 category: "Web Design"
 year: "2021"
 tool: "Figma, HTML/CSS"
-description: "Web design and prototype for a makeshift ceramics studio located in Northern California."
 thumb: "/img/projects/ui/icd/icd-thumb.jpg"
 featuredimage: "/img/projects/ui/icd/icd-f.jpg"
 ---

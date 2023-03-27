@@ -3,9 +3,7 @@ title: "Chabot Logos"
 category: "Logos"
 year: "2021"
 tool: "Adobe Illustrator"
-description: "Logo designs for Chabot College, including a new logo for the Chabot Performing Arts Complex (PAC)."
 thumb: "/img/projects/gd/cl/cl-thumb.jpg"
-featuredimage: "https://via.placeholder.com/1500x600"
 ---
 
 As a member of Chabot College's graphic design studio, I had the opportunity to collaborate with my peers and work with a variety of clients. The logos presented here are for Chabot's Communication Lab, Performing Arts Complex, and Anthropology Department. While only one of my designs was selected for official use, all three demonstrate my ability to meet the unique needs of each client.
@@ -16,9 +14,9 @@ The Chabot Performing Arts Complex (PAC) requested a new logo that would help re
 
 Keywords: innovative, adaptable, professional
 
-{{< figure src="https://via.placeholder.com/1100x500" alt="FIXME" caption="Brainstorming." >}}
+{{< figure src="/img/projects/gd/cl/cl-1.jpg" alt="Logo ideas for PAC" caption="Alternative ideas." >}}
 
-{{< figure src="https://via.placeholder.com/1100x500" alt="FIXME" caption="Final designs selected by the client." >}}
+{{< figure src="/img/projects/gd/cl/cl-2.jpg" alt="Final logos for PAC" caption="Final designs selected by the client." >}}
 
 ## Communication Lab
 
@@ -26,9 +24,8 @@ The Communication Lab requested a logo that would convey a warm and welcoming to
 
 Keywords: welcoming, safe space, modern
 
-{{< figure src="https://via.placeholder.com/1100x500" alt="FIXME" caption="Brainstorming." >}}
+{{< figure src="/img/projects/gd/cl/cl-3.jpg" alt="Logo concepts for Comm lab" caption="Logo concepts." >}}
 
-{{< figure src="https://via.placeholder.com/1100x500" alt="FIXME" caption="Logo and flyer." >}}
 
 ## Anthropology Department
 
@@ -36,6 +33,4 @@ The anthropology department wanted to develop a stronger presence on campus. The
 
 Keywords: vibrant, inviting, cheerful
 
-{{< figure src="https://via.placeholder.com/1100x500" alt="FIXME" caption="Brainstorming." >}}
-
-{{< figure src="https://via.placeholder.com/1100x500" alt="FIXME" caption="Concepts." >}}
+{{< figure src="/img/projects/gd/cl/cl-4.jpg" alt="Logo concepts for anthropology department" caption="Logo concepts." >}}

@@ -11,7 +11,7 @@
     --pinklight: #e12a8030;
     /* === Fonts === */
     --basefont: 'Nunito', sans-serif;
-   --headingfont: 'Poppins', sans-serif;
+    --headingfont: 'Poppins', sans-serif;
 }
 
 html {
@@ -37,7 +37,7 @@ html {
 
 body {
     background-color: var(--bg);
-    margin: 1.5rem;
+    margin: 0;
 }
 
 /* === Layout === */
@@ -116,8 +116,27 @@ iframe {
     text-align: center;
 }
 
-#about-text {
-    max-width: 800px;
+#about {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#about img {
+    flex: 1;
+    max-width: fit-content;
+}
+
+#about>div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#about>div p {
+    margin: 0;
 }
 
 #intro h1 {
@@ -185,6 +204,10 @@ iframe {
 
 
 #contact {
+    background-color: #2929380c;
+    max-width: 748px;
+    padding: 2rem 7rem 2rem 9rem;
+    border-radius: 15px;
     margin-top: 6rem;
     margin-bottom: 7rem;
     text-align: center;
@@ -234,6 +257,9 @@ form {
     display: flex;
     justify-content: center;
     margin: auto;
+    background-color: #2929380c;
+    border-radius: 15px;
+    padding: 1rem;
 }
 
 form p {
@@ -336,23 +362,31 @@ footer {
     text-align: center;
 }
 
-footer > a {
+footer>a {
     font-weight: 700;
 }
 
 footer p,
 footer p a {
-	margin: 0;
-	font-weight: 400;
+    margin: 0;
+    font-weight: 400;
     color: var(--grey);
 }
 
 footer p a {
-	border-bottom: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
 }
 
 #top {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+#insta {
+    background-color: #33b4d134;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 15px;
+    max-width: 748px;
 }

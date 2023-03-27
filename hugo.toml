@@ -8,6 +8,6 @@ disableKinds = ["sitemap", "RSS", "404", "taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [params]
   Description = "Stephanie Burciaga is a Bay Area graphic designer who specializes in crafting eye-catching editorial layouts, logos, and user interfaces that engage and delight. Check out their portfolio today!"
-  Thumbnail = ""
   Github = "https://github.com/srciaga"
   Linkedin = "https://linkedin.com/in/srciaga"
+  Instagram = "https://www.instagram.com/srciaga/"

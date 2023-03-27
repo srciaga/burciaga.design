@@ -1,7 +1,7 @@
 ---
 title: "Home"
 contact: true
-description: "{{ .Site.Params.Description }}"
+instafeed: true
 ---
 
 {{< rawhtml >}}
