@@ -6,8 +6,9 @@
     --shadow2: rgb(0 0 0 / 15%);
     --bg: #ffffff;
     --red: #df696b;
-    --blue: #57CBF2;
+    --blue: #33B3D1;
     --pink: #e12a80;
+    --pinkdark: #b92168;
     --pinklight: #e12a8030;
     /* === Fonts === */
     --basefont: 'Nunito', sans-serif;
@@ -37,7 +38,7 @@ html {
 
 body {
     background-color: var(--bg);
-    margin: 0;
+    margin: 1rem;
 }
 
 /* === Layout === */
@@ -206,7 +207,7 @@ iframe {
 #contact {
     background-color: #2929380c;
     max-width: 748px;
-    padding: 2rem 7rem 2rem 9rem;
+    padding: 2rem 7rem 3rem 7rem;
     border-radius: 15px;
     margin-top: 6rem;
     margin-bottom: 7rem;
@@ -214,7 +215,7 @@ iframe {
 }
 
 #contact h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 #contact a {
@@ -222,6 +223,7 @@ iframe {
     font-size: 1.5rem;
     font-weight: 700;
     background-color: var(--pink);
+    border-bottom: 7px solid var(--pinkdark);
     color: white;
     padding: 1rem;
     border-radius: 15px;
@@ -232,6 +234,7 @@ iframe {
 
 #contact a:hover {
     background-color: var(--black);
+    border-bottom: 7px solid var(--black);
     box-shadow: 0px 7px 33px 0 var(--shadow2);
     transform: translateY(-.3rem);
 }
@@ -255,6 +258,7 @@ iframe {
 
 form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: auto;
     background-color: #2929380c;
@@ -262,9 +266,15 @@ form {
     padding: 1rem;
 }
 
+form h2 {
+    color: var(--pink);
+    font-size: xx-large;
+}
+
 form p {
     margin: 0;
     font-style: italic;
+    text-align: center;
 }
 
 form span {
@@ -322,6 +332,7 @@ input[type=submit] {
     font-size: 1.5rem;
     font-weight: 700;
     background-color: var(--pink);
+    border-bottom: 7px solid var(--pinkdark);
     color: white;
     padding: 1rem;
     border-radius: 15px;
@@ -332,6 +343,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: var(--black);
+    border-bottom: 7px solid var(--black);
     box-shadow: 0px 7px 33px 0 var(--shadow2);
     transform: translateY(-.3rem);
 }
@@ -354,12 +366,14 @@ input[type=submit]:hover {
 }
 
 #socials img:hover {
-    transform: translateY(-.5rem) scale(1.2);
+    transform: scale(1.2);
 }
 
 footer {
     padding: 2rem;
     text-align: center;
+    background-color: #2929380c;
+    margin-top: 2rem;
 }
 
 footer>a {
@@ -384,9 +398,15 @@ footer p a {
 }
 
 #insta {
-    background-color: #33b4d134;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border-radius: 15px;
+    background-color: #33b4d128;
     max-width: 748px;
+    padding: 2rem 7rem 2rem 9rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#insta h1 {
+    text-align: center;
+    color: var(--blue);
 }
