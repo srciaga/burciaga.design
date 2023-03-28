@@ -2,16 +2,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title := print .Title " - " .Site.Title }} {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}{{ $title }}</title>
+    <title>{{ $title := print .Title " - " .Site.Title }}
+        {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}{{ $title }}</title>
     <meta name="description" content="{{ .Site.Params.Description }}" />
     <meta property="og:title" content="{{ .Site.Title }}">
     <meta property="og:description" content="{{ .Params.Description }}">
     <meta property="og:url" content="http://srciaga.github.io/">
     <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     {{/*  {{ $css := resources.Get "scss/main.scss" }}
     {{ $css = $css | toCSS }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">  */}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}"> */}}
     <link rel="stylesheet" href="/css/font.css">
     <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/main.css" />
 </head>
