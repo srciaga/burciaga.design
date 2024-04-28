@@ -1,18 +1,19 @@
-[srciaga.github.io](https://srciaga.github.io/) is my personal portfolio. Currently a huge work in progress!! ☝️ 🤓
+# 🎨 [burciaga.design](https://burciaga.design/)
 
-The site is compiled with [Hugo](https://gohugo.io/) and the final build is automated with the [Hugo Setup action](https://github.com/marketplace/actions/hugo-setup). Deployed to GH pages from the [gh-pages branch](https://github.com/srciaga/srciaga.github.io/tree/gh-pages).
+![Website screenshot](https://imgur.com/Do6ewOe.png)
 
+[srciaga.github.io](https://srciaga.github.io/) (aka burciaga.design) is my graphic design portfolio.
 
-# To do:
+The site is compiled with [Hugo](https://gohugo.io/) and the final build is automated with the [Hugo Setup action](https://github.com/marketplace/actions/hugo-setup).
 
-<img align="right" width="20%" alt="Gif of a wizard typing on a computer" src="https://i.imgur.com/vSmdBrC.gif"/>
+## Updating
 
-- [x] Fix meta description
-- [x] Logo/favicon 
-- [x] Change about page layout  
-- [ ] CSS rewrite
-- [ ] Convert images to webP format
+Pages can be added with `hugo new content {category}/{title}.md`.
 
-# License
+View the site with `hugo server`.
+
+To publish, push changes. Deployment is handled by the Hugo Setup action.
+
+## License
 
 The content of this project itself is licensed under the [Attribution NonCommercial NoDerivatives 4.0 International license](https://creativecommons.org/licenses/by-nc-nd/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
