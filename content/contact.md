@@ -9,7 +9,6 @@ I'm currently open to new opportunities. My [resume](#resume) is available below
 
 {{< contactform >}}
 
-
 ## Resume
 
-{{< rawhtml >}}<iframe src="/files/Resume2023-StephanieBurciaga.pdf" title="Stephanie Burciaga's Resume"></iframe>{{< /rawhtml >}}
+{{< rawhtml >}}<iframe src="/files/Resume2024-StephanieBurciaga.pdf" title="Stephanie Burciaga's Resume"></iframe>{{< /rawhtml >}}
