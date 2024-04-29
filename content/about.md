@@ -16,7 +16,7 @@ layout: page
                 <li>And learning how to code. (<a href="https://github.com/srciaga/srciaga.github.io">I built this website!</a>)</li>
             </ul>
             <p>
-                Let's make something together! If you're interested, please <a href="contact.html">get in touch</a>.
+                Let's make something together! If you're interested, please <a href="contact">get in touch</a>.
             </p>
         </p>
     </div>
