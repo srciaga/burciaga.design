@@ -13,7 +13,7 @@ layout: page
             <ul>
                 <li>Waiting for Hanya Yanagihara's next novel...</li>
                 <li>Watching offbeat movies...</li>
-                <li>And learning how to code. (<a href="https://github.com/srciaga/srciaga.github.io">I built this website!</a>)</li>
+                <li>And learning how to code. (<a href="https://github.com/srciaga/burciaga.design">I built this website!</a>)</li>
             </ul>
             <p>
                 Let's make something together! If you're interested, please <a href="contact">get in touch</a>.
