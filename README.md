@@ -2,7 +2,7 @@
 
 ![Website screenshot](https://imgur.com/Do6ewOe.png)
 
-[srciaga.github.io](https://srciaga.github.io/) (aka burciaga.design) is my graphic design portfolio.
+[burciaga.design](https://burciaga.design/) is my graphic design portfolio.
 
 The site is compiled with [Hugo](https://gohugo.io/) and the final build is automated with the [Hugo Setup action](https://github.com/marketplace/actions/hugo-setup).
 
